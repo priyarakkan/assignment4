@@ -1,4 +1,6 @@
 
+   
+   
    let again;
 do {
     let userChoice = prompt('Rock(0), paper(1) or scissor(2) choice any one:');
@@ -24,5 +26,6 @@ do {
     {
         alert(`Enter correct option among rock, paper or scirror`);
     } 
-} while(again === 'y')
-      alert('Game over!')
+    again = prompt('Play again? (y/n)')
+} while(again === 'y');
+      alert('Game over!');
