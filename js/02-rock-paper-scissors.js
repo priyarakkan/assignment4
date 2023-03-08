@@ -20,7 +20,8 @@ do {
            ||(userChoice=='scissor'&& computerChoice==2) )
     {
     alert(`Match is tie!`);
-    }  else if (userChoice != 'rock' || 'paper' ||  'scissor') {
+    }  else if ((userChoice != 'rock') || (userChoice != 'paper') || (userChoice != 'scissor'))
+    {
         alert(`Enter correct option among rock, paper or scirror`);
     } 
 } while(again === 'y')
