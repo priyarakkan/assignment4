@@ -1,7 +1,6 @@
+alert('Welcome to Rock, paper, scissor game')
+let again;
 
-   
-   
-   let again;
 do {
     let userChoice = prompt('Rock(0), paper(1) or scissor(2) choice any one:');
     let computerChoice = Math.round(Math.random() * 3);
