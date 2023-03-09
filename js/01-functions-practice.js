@@ -37,7 +37,7 @@ function percentOf(a, b) {
 // It should log a string like "2 is the modulus of 4 and 10."
 
 function findModulus(a1, b1) {
-    modulus = 
+    modulus = a1 % b1;
     console.log(`${modulus} is the modulus of ${a1} and ${b1}`);
     return;
 } findModulus(4, 10)
