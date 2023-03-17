@@ -1,6 +1,7 @@
+let total = 0;
 // ADD A PRIVATE FUNCTION CALLED CALCULATE
-const calculate = (num1, num2, method) => {
-    switch (method) {
+const calculate = (num1, num2, operation) => {
+    switch (operation) {
      case 'add':
          return num1 + num2;
          break;
@@ -45,7 +46,4 @@ const div = (num1, num2) => {
 };
 
 // EXPORT THE FOUR PUBLIC FUNCTIONS
-export {add};
-export {subtract};
-export {multiply};
-export {div}; 
+export defalut {add, subtract, multiply, div};
